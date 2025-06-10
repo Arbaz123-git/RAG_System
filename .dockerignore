@@ -1,0 +1,52 @@
+# Git
+.git
+.gitignore
+
+# Docker
+.dockerignore
+Dockerfile
+Dockerfile.locust
+docker-compose.yml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+*.egg-info/
+*.egg
+
+# Environment variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Data directories (mount these as volumes instead)
+data/
+embeddings/
+weaviate-test-data/
+benchmark_results/
+my_results/
+output/
+results/
+temp_images/
+
+# Reports and documentation
+reports/
+*.md
+!DOCKER_README.md
+
+# Temporary files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db 
